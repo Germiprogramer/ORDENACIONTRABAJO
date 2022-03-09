@@ -1,6 +1,6 @@
 class ordenartareas:
-  def _init_(tareas):
-    tareas = [tareas]
+  def _init_(self, tareas):
+    self.tareas = list(tareas)
   
   def ordenartareas(tareas):
     for i in range(len(tareas)):
