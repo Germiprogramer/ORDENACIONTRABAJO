@@ -7,7 +7,8 @@ if __name__ == "__main__":
 
   print("Ejercicio 2")
   from Classes.ordenartareas import *
-  
+  tabladetareas = [1,2,5,3,2,1,4,7]
+  tareasordenadas = Ordenartareas(tabladetareas)
 
   print("Ejercicio 3")
   from introducir.entero import *
