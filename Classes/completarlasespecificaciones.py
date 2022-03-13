@@ -9,8 +9,12 @@ class Completarlasespecificaciones:
   
   def sacarmaximo(self, tabla, max, min):
     for i in range(min, max):
-        maximo = tabla[i] 
-        if tabla[i] > maximo:
-            maximo = tabla[i]
-    return maximo
+        maximo = self.tabla[i] 
+        if self.tabla[i] > maximo:
+            maximo = self.tabla[i]
+    return self.maximo
   
+  def moveralaizquierda(self, tabla, max, min):
+    for i in range(min, (max-1)):
+      self.tabla[i] = self.tabla[i+1]
+    return self.tabla

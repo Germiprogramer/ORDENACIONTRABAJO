@@ -7,6 +7,7 @@ if __name__ == "__main__":
 
   print("Ejercicio 2")
   from Classes.ordenartareas import *
+  
 
   print("Ejercicio 3")
   from introducir.entero import *
@@ -17,5 +18,4 @@ if __name__ == "__main__":
 
   tablanueva = Completarlasespecificaciones(tabla)
   print(tablanueva)
-
 

@@ -2,9 +2,9 @@ class Ordenartareas:
   def _init_(self, tareas):
     self.tareas = list(tareas)
   
-  def ordenar(tareas):
-    for i in range(len(tareas)):
-        for r in range(i, len(tareas)):
-            if tabla[i]> tabla[r]:
-                tabla[i], tabla[r] = tabla[r], tabla[i]
-                print(tabla)
+  def ordenacion_burbuja(self):
+        for i in range(len(self.tareas)-1):
+            for a in range(len(self.tareas)-1):
+                if self.tareas[a] > self.tareas[a+1]:
+                    self.tareas[a], self.tareas[a+1] = self.tareas[a+1], self.tareas[a]
+        return self.tareas
