@@ -1,8 +1,8 @@
-class ordenartareas:
+class Ordenartareas:
   def _init_(self, tareas):
     self.tareas = list(tareas)
   
-  def ordenartareas(tareas):
+  def ordenar(tareas):
     for i in range(len(tareas)):
         for r in range(i, len(tareas)):
             if tabla[i]> tabla[r]:
