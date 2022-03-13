@@ -1,22 +1,21 @@
 if __name__ == "__main__":
-  from dicotomia import ordenacion
+  from Classes.dicotomia import *
   print("Ejercicio 1")
   tabla = [1,2,5,3,2,1,4,7]
-  tablaordenada = ordenacion(tabla)
+  tablaordenada = Dicotomia(tabla)
   print(tablaordenada)
 
   print("Ejercicio 2")
-  from ordenartareas import ordenar
+  from Classes.ordenartareas import *
 
   print("Ejercicio 3")
-  from entero import MAX, MIN
-  from completarlasespecificaciones import elegirsegmento, sacarmaximo
+  from introducir.entero import *
+  from Classes.completarlasespecificaciones import *
   tabla = [1,2,5,3,2,1,4,7]
   max = MAX
   min = MIN
 
-  elegirsegmento(self, max, min)
-  sacarmaximo(self, tabla, max, min)
-  print("El máximo es {}".format(maximo))
+  tablanueva = Completarlasespecificaciones(tabla)
+  print(tablanueva)
 
 
